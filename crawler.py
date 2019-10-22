@@ -77,3 +77,9 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+'''
+If you get it working and you want to improve it you could:
+ - Set a maximum depth for the crawler
+ - use asyncio.BoundedSemaphore rather than a global variable to limit requests
+'''
